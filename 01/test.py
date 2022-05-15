@@ -7,4 +7,4 @@ Y = np.arange(-20, 35, 0.1)
 
 
 print(XX.shape)
-print(X.shape)
+print(XX[4][531])
