@@ -1,10 +1,6 @@
 import numpy as np
 
 
-X = np.arange(-20, 35, 0.1) 
-Y = np.arange(-20, 35, 0.1)
-[XX, YY] = np.meshgrid(X, Y)
-
-
-print(XX.shape)
-print(XX[4][531])
+k=2*np.identity(2)+[[1,0],[2,3]]
+k = np.linalg.inv(k)
+print(k)
